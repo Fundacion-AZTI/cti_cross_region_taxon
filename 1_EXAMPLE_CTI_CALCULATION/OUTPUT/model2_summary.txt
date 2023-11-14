@@ -1,0 +1,17 @@
+
+Call:
+lm(formula = pottmp_surf ~ Year, data = dat.df_aggr_HB)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.32945 -0.11540 -0.01473  0.11588  0.33963 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)
+(Intercept) -6.340405  15.325650  -0.414    0.684
+Year         0.010794   0.007621   1.416    0.175
+
+Residual standard error: 0.1819 on 17 degrees of freedom
+Multiple R-squared:  0.1056,	Adjusted R-squared:  0.05294 
+F-statistic: 2.006 on 1 and 17 DF,  p-value: 0.1747
+

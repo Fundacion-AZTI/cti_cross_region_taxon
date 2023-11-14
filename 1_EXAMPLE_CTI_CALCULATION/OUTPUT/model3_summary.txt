@@ -1,0 +1,19 @@
+
+Call:
+lm(formula = CTI ~ pottmp_surf, data = dat.df_aggr_HB)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.45641 -0.07147  0.04285  0.10094  0.24906 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 15.22166    3.32454   4.579 0.000267 ***
+pottmp_surf -0.02333    0.21633  -0.108 0.915395    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1716 on 17 degrees of freedom
+Multiple R-squared:  0.0006835,	Adjusted R-squared:  -0.0581 
+F-statistic: 0.01163 on 1 and 17 DF,  p-value: 0.9154
+
