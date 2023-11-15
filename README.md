@@ -16,10 +16,10 @@ Warming seas, ocean acidification, decreases in dissolved oxygen concentrations
 
     last updated: 15/11/2023
 
--   [Folder 1]{.underline}: CTI analysis taken for each case study. This folder includes code showing an example of CTI calculation for a case study.
+-   Folder 1: CTI analysis taken for each case study. This folder includes code showing an example of CTI calculation for a case study.
 
     -   Script 1: Get local potential temperature from GODAS (0.3x1, 1980-2020) <https://www.psl.noaa.gov/data/gridded/data.godas.html>
     -   Script 2: Estimate thermal preferences for each species from OBIS occurrences and local temperatures derived from GODAS, which are available from OBIS for each observation.
     -   Script 3: Analyze CTI trends over time and underlying ecological processes (tropicalization, borealization, detropicalization, deborealization)
 
--   [Folder 2]{.underline}: Data analysis (Scripts 2.1, 2.2 and 2.3) and plots (Figures 2-5, Supplementary Figures 1-3) using the database generated in this study to estimate CTI temporal trends and underlying ecological processes.
+-   Folder 2: Data analysis (Scripts 2.1, 2.2 and 2.3) and plots (Figures 2-5, Supplementary Figures 1-3) using the database generated in this study to estimate CTI temporal trends and underlying ecological processes.
