@@ -6,40 +6,20 @@ Warming seas, ocean acidification, decreases in dissolved oxygen concentrations
 
 # Code instructions
 
--   ·       Paper: Cross-basins and cross-taxon patterns in biodiversity turnover in warming seas
+-   Paper: Cross-basins and cross-taxon patterns in biodiversity turnover in warming seas
 
-    ·       Project: FutureMARES <https://www.futuremares.eu/>
+-   Project: FutureMARES <https://www.futuremares.eu/>
 
-    ·       Authors: Ernesto Villarino, Guillem Chust, Matthew McLean, Martin Lindegren, Leire Ibaibarriaga
+-   Authors: Ernesto Villarino, Guillem Chust, Matthew McLean, Martin Lindegren, Leire Ibaibarriaga
 
-    ·       Contact: evillarino\@azti.es; gchust\@azti.es, mcleamj\@gmail.com, mli\@aqua.dtu.dk, libaibarriaga\@azti.es
+-   Contact: evillarino\@azti.es; gchust\@azti.es, mcleamj\@gmail.com, mli\@aqua.dtu.dk, libaibarriaga\@azti.es
 
     last updated: 15/11/2023
 
-    §  Folder 1: CTI analysis taken for each case study. This folder includes code showing an example of CTI calculation for a case study.
+-   [Folder 1]{.underline}: CTI analysis taken for each case study. This folder includes code showing an example of CTI calculation for a case study.
 
-    §  Script 1: Get local potential temperature from GODAS (0.3x1, 1980-2020) <https://www.psl.noaa.gov/data/gridded/data.godas.html>
+    -   Script 1: Get local potential temperature from GODAS (0.3x1, 1980-2020) <https://www.psl.noaa.gov/data/gridded/data.godas.html>
+    -   Script 2: Estimate thermal preferences for each species from OBIS occurrences and local temperatures derived from GODAS, which are available from OBIS for each observation.
+    -   Script 3: Analyze CTI trends over time and underlying ecological processes (tropicalization, borealization, detropicalization, deborealization)
 
-    o   Input: pottmp.1980.nc... (include all files from 1980-2020)
-
-    o   Output: all_years_depth.RData
-
-    §  Script 2: Estimate thermal preferences for each species from OBIS occurrences and local temperatures derived from GODAS, which are available from OBIS for each observation.
-
-    o   Input: Species Year~1~ Year~2~ ...
-
-    §  species~1~ Abundance sp~1~ in Y~1~ Abundance sp~1~ in Y~2~
-
-    §  species~2~ Abundance sp~2~ in Y~1~ Abundance sp~2~ in Y~2~
-
-    o   Output: Data_thermal_time_W.RData
-
-    §  Script 3: Analyze CTI trends over time and underlying ecological processes (tropicalization, borealization, detropicalization, deborealization)
-
-    o   Input~1~: Data_thermal_time_W.RData (from Script 2)
-
-    o   Input~2~: time series of local ocean temperatures (dat.df_GODAS.RData, from Script 1)
-
-    o   Output: csv file with trends on SST, CTI and underlying ecological processes, linear model results and exploratory plots.
-
-    §  Folder 2: Data analysis (Script 2.1, 2.2 and 2.3) and plots (Figures 2-5, Supplementary Figures 1-3) using the database generated in this study to estimate CTI temporal trends and underlying ecological processes.
+-   [Folder 2]{.underline}: Data analysis (Scripts 2.1, 2.2 and 2.3) and plots (Figures 2-5, Supplementary Figures 1-3) using the database generated in this study to estimate CTI temporal trends and underlying ecological processes.
