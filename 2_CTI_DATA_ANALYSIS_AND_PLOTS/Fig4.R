@@ -51,7 +51,9 @@ p1 <- ggplot(df, aes(x=sst_MP_diff, y=change, col=process))+
   annotate("text", x = -5, y =  0.4, label = "Borealization     = 20.4% ",  size=6) +
   annotate("text", x =  5, y =  0.4, label = "Tropicalization   = 33.9% ",  size=6) +
   annotate("text", x = -5, y = -0.4, label = "Deborealization   = 25.4% ",  size=6) +
-  annotate("text", x =  5, y = -0.4, label = "Detropicalization = 20.3 % ", size=6) 
+  annotate("text", x =  5, y = -0.4, label = "Detropicalization = 20.3 % ", size=6) +
+  annotate("text", x =  4.5, y =  0.48, label = "Womersleyella setacea",  size=4, fontface="italic") +
+  annotate("text", x =  0, y =  -0.63, label = "Paramuricea clavate",  size=4, fontface="italic") 
 
 # save plot
 ggsave(file=file.path(output.wd,"Fig4.png"),  width=16, height=16, dpi=300)
