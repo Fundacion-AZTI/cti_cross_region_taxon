@@ -22,7 +22,7 @@ output.wd <- "2_CTI_DATA_ANALYSIS_AND_PLOTS/OUTPUT" # name directory to save obj
 
 # Diagnostic plots SUPPLEMENTARY FIGURE 3
 
-tmp <- data.frame(fit=fitted(mylme.2), res=resid(mylme.2, type="p"))
+tmp <- data.frame(fit=fitted(mylme.CTI_factors), res=resid(mylme.CTI_factors, type="p"))
 tmp <- cbind(dd, tmp)
 
 theme_set(theme_bw(base_size=16))
@@ -40,7 +40,7 @@ p2 <- ggplot(tmp, aes(Water_Mass, res))+
   ylab("Residuals")
 
 # plot boxplots and pie charts
-p1+p1+ plot_annotation(tag_levels=list(c('a')))& theme(plot.tag = element_text(size = 24))  
+p1+p2+ plot_annotation(tag_levels=list(c('a')))& theme(plot.tag = element_text(size = 24))  
 
 # save plot
 ggsave(file=file.path(output.wd,"SFig3.png"),  width=18, height=10, dpi=300)
