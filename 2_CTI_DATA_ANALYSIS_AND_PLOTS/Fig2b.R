@@ -1,7 +1,7 @@
 ################################################################################################################
 ##   Error barplot showing the rate of change in Community Temperature Index (CTI) over time for each case study
 ##   Author: Ernesto Villarino, evillarino@azti.es 
-##   Project: H2020 FutureMARES
+##   Project: H2020 FutureMARES 
 ##   Paper: Cross-basins and cross-taxon patterns in biodiversity turnover in warming seas   
 ################################################################################################################
 
