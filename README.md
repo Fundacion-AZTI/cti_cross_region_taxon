@@ -2,7 +2,7 @@
 
 Data and codes from: Cross-basin and cross-taxa patterns of marine community tropicalization and deborealization in warming European seas. doi:
 
-cti_cross_region_taxon is the repository for the data and codes used in theflollowing manuscript
+cti_cross_region_taxon is the repository for the data and codes used in the following manuscript:
 
 # Citation
 
